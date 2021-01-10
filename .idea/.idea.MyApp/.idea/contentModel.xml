@@ -9,14 +9,28 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="BaseController.cs" t="Include" />
+          <e p="BuggyController.cs" t="Include" />
+          <e p="ErrorController.cs" t="Include" />
           <e p="ProductsController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
           <e p="ProductToReturnDto.cs" t="Include" />
         </e>
+        <e p="Errors" t="Include">
+          <e p="ApiException.cs" t="Include" />
+          <e p="ApiResponse.cs" t="Include" />
+          <e p="ApiValidationErrorResponse.cs" t="Include" />
+        </e>
+        <e p="extensions" t="Include">
+          <e p="ApplicationServicesExtensions.cs" t="Include" />
+          <e p="SwaggerServiceExtensions.cs" t="Include" />
+        </e>
         <e p="Helpers" t="Include">
           <e p="MappingProfiles.cs" t="Include" />
           <e p="ProductUrlResolver.cs" t="Include" />
+        </e>
+        <e p="Middleware" t="Include">
+          <e p="ExceptionMiddleware.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

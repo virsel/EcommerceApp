@@ -23,41 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="343c91b4-3afb-481a-9569-d59daa87df8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Helpers/ProductUrlResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-ang1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-ang2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-core2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/boot-redis1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-code1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-code2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/glove-react2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/hat-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/hat-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/hat-react2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-ang1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-ang2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-core2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/wwwroot/images/products/sb-ts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Repositories/GenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Controllers/ErrorController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Errors/ApiException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Errors/ApiResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/dataSources/139c8543-7bd3-4a8a-96a5-c92df7d0b5e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/dataSources/139c8543-7bd3-4a8a-96a5-c92df7d0b5e3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/dataSources/139c8543-7bd3-4a8a-96a5-c92df7d0b5e3/storage_v2/_src_/database/EcommerceApp.4fctlg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/dataSources/139c8543-7bd3-4a8a-96a5-c92df7d0b5e3/storage_v2/_src_/database/EcommerceApp.4fctlg/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +87,19 @@
         <option value="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" />
         <option value="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
         <option value="$PROJECT_DIR$/API/Dtos/ProductToReturnDto.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/ProductsController.cs" />
         <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/API/Helpers/ProductUrlResolver.cs" />
         <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
+        <option value="$PROJECT_DIR$/API/Errors/ApiResponse.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/BuggyController.cs" />
+        <option value="$PROJECT_DIR$/API/Errors/ApiException.cs" />
+        <option value="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" />
+        <option value="$PROJECT_DIR$/API/Errors/ApiValidationErrorResponse.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/ErrorController.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/ProductsController.cs" />
+        <option value="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" />
         <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" />
       </list>
     </option>
   </component>
@@ -178,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610210201954</updated>
       <workItem from="1610210218368" duration="11386000" />
-      <workItem from="1610269025258" duration="12405000" />
+      <workItem from="1610269025258" duration="18719000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize api">
       <created>1610210453168</created>
@@ -201,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610274933502</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="End of section 4">
+      <created>1610286040458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610286040458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,37 +218,38 @@
     <MESSAGE value="Initialize api" />
     <MESSAGE value="End of section 2" />
     <MESSAGE value="End of section 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of section 3" />
+    <MESSAGE value="End of section 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of section 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1368" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610213162912">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1368" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610213162912" />
-    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2" timestamp="1610274932454">
+    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2" timestamp="1610286039488">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610274932454" />
+    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610286039488" />
     <state x="-1082" y="420" key="Github.ShareDialog" timestamp="1610210577509">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1082" y="420" key="Github.ShareDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610210577509" />
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1610285890351">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1610293138215">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610285890351" />
-    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1610285890351">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610293138215" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1610293138215">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610285890351" />
-    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1610285890351">
+    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610293138215" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1610293138215">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610285890351" />
-    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1610285890351">
+    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610293138215" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1610293138215">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610285890351" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610293138215" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1610284272643">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
@@ -324,18 +318,18 @@
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1368" y="255" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610215832711" />
-    <state x="-1250" y="224" key="RiderGenerateDialog" timestamp="1610279088558">
+    <state x="-1250" y="224" key="RiderGenerateDialog" timestamp="1610287796614">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1250" y="224" key="RiderGenerateDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610279088558" />
+    <state x="-1250" y="224" key="RiderGenerateDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610287796614" />
     <state x="-1459" y="167" key="SettingsEditor" timestamp="1610212409006">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1459" y="167" key="SettingsEditor/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610212409006" />
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610274936462">
+    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610286043418">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610274936462" />
+    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610286043418" />
     <state x="-1117" y="197" width="522" height="514" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610273585764">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
@@ -348,9 +342,9 @@
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1283" y="256" width="645" height="534" key="find.popup/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610213665379" />
-    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1610284126249">
+    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1610287469855">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610284126249" />
+    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610287469855" />
   </component>
 </project>
