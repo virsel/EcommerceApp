@@ -23,47 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="343c91b4-3afb-481a-9569-d59daa87df8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/models/pagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/models/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/nav-bar/nav-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/nav-bar/nav-bar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/nav-bar/nav-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/hero1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/hero2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/hero3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/placeholder.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/ssl/server.crt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/ssl/server.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/API/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/API/Controllers/BaseController.cs" />
         <option value="$PROJECT_DIR$/API/Entities/Product.cs" />
         <option value="$PROJECT_DIR$/API/Data/StoreContext.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/139c8543-7bd3-4a8a-96a5-c92df7d0b5e3/console_1.sql" />
@@ -126,10 +111,15 @@
         <option value="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
         <option value="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" />
         <option value="$PROJECT_DIR$/API/Startup.cs" />
-        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/client/angular.json" />
         <option value="$PROJECT_DIR$/client/.gitignore" />
+        <option value="$PROJECT_DIR$/client/src/app/nav-bar/nav-bar.component.scss" />
+        <option value="$PROJECT_DIR$/client/src/app/nav-bar/nav-bar.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/models/product.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/models/pagination.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -195,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610210201954</updated>
       <workItem from="1610210218368" duration="11386000" />
-      <workItem from="1610269025258" duration="26794000" />
+      <workItem from="1610269025258" duration="31232000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize api">
       <created>1610210453168</created>
@@ -239,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610298909516</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&#10;End of section 7">
+      <created>1610303082371</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610303082373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,37 +263,42 @@
     <MESSAGE value="End of section 4" />
     <MESSAGE value="End of section 5" />
     <MESSAGE value="End of section 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of section 6" />
+    <MESSAGE value="&#10;End of section 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;End of section 7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1368" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610213162912">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1368" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610213162912" />
-    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2" timestamp="1610302950026">
+    <state x="-1155" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1610305322541">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610302950026" />
+    <state x="-1155" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610305322541" />
+    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2" timestamp="1610303081226">
+      <screen x="-1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610303081226" />
     <state x="-1082" y="420" key="Github.ShareDialog" timestamp="1610210577509">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1082" y="420" key="Github.ShareDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610210577509" />
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1610301175875">
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1610305635312">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1610301175875">
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610305635312" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1610305635312">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1610301175875">
+    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610305635312" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1610305635311">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1610301175875">
+    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610305635311" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1610305635312">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610305635312" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1610284272643">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
@@ -373,10 +375,10 @@
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1459" y="167" key="SettingsEditor/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610212409006" />
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610298913221">
+    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610303084061">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298913221" />
+    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610303084061" />
     <state x="-1117" y="197" width="522" height="514" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610273585764">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
@@ -389,9 +391,13 @@
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1283" y="256" width="645" height="534" key="find.popup/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610213665379" />
-    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1610298710250">
+    <state x="-1097" y="409" width="348" height="298" key="org.angular.cli.generate" timestamp="1610303384045">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298710250" />
+    <state x="-1097" y="409" width="348" height="298" key="org.angular.cli.generate/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610303384045" />
+    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1610308421621">
+      <screen x="-1920" y="3" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610308421621" />
   </component>
 </project>
