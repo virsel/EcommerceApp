@@ -23,20 +23,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="343c91b4-3afb-481a-9569-d59daa87df8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Helpers/Pagination.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductSpecParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/ssl/server.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/ssl/server.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/BaseSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/ISpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/SpecificationEvaluator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/ProductRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +126,10 @@
         <option value="$PROJECT_DIR$/Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
         <option value="$PROJECT_DIR$/Core/Specifications/ProductWithFiltersForCountSpecification.cs" />
         <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/client/angular.json" />
+        <option value="$PROJECT_DIR$/client/.gitignore" />
       </list>
     </option>
   </component>
@@ -126,6 +152,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Projects\udemy\EcommerceApp\MyApp\client\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -168,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610210201954</updated>
       <workItem from="1610210218368" duration="11386000" />
-      <workItem from="1610269025258" duration="23622000" />
+      <workItem from="1610269025258" duration="26794000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize api">
       <created>1610210453168</created>
@@ -205,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610293969624</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="End of section 6">
+      <created>1610298909516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610298909516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,37 +265,38 @@
     <MESSAGE value="End of section 3" />
     <MESSAGE value="End of section 4" />
     <MESSAGE value="End of section 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of section 5" />
+    <MESSAGE value="End of section 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of section 6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1368" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610213162912">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1368" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610213162912" />
-    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2" timestamp="1610293968677">
+    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2" timestamp="1610302950026">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610293968677" />
+    <state x="-1335" y="99" width="999" height="848" key="CommitChangelistDialog2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610302950026" />
     <state x="-1082" y="420" key="Github.ShareDialog" timestamp="1610210577509">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1082" y="420" key="Github.ShareDialog/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610210577509" />
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1610298511672">
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1610301175875">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298511672" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1610298511672">
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1610301175875">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298511672" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1610298511672">
+    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1610301175875">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298511672" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1610298511672">
+    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1610301175875">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298511672" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610301175875" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1610284272643">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
@@ -338,10 +373,10 @@
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="-1459" y="167" key="SettingsEditor/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610212409006" />
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610293972327">
+    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610298913221">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610293972327" />
+    <state x="-1368" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.3.1920.1040@-1920.3.1920.1040" timestamp="1610298913221" />
     <state x="-1117" y="197" width="522" height="514" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610273585764">
       <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
