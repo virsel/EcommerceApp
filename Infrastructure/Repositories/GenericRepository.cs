@@ -13,6 +13,11 @@ namespace Infrastructure.Repositories
     {
         private readonly StoreContext _context;
 
+        public async Task<int> CountAsync(ISpecification<T> spec)
+        {
+            return await ApplySpecification(spec).CountAsync();
+        }
+        
         public GenericRepository(StoreContext context)
         {
             _context = context;
@@ -37,6 +42,8 @@ namespace Infrastructure.Repositories
         {
             return await ApplySpecification(spec).ToListAsync();
         }
+
+
 
         private IQueryable<T> ApplySpecification(ISpecification<T> spec)
         {
