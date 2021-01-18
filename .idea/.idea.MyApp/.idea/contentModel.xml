@@ -8,13 +8,21 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="BaseController.cs" t="Include" />
+          <e p="BasketController.cs" t="Include" />
           <e p="BuggyController.cs" t="Include" />
           <e p="ErrorController.cs" t="Include" />
           <e p="ProductsController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
+          <e p="AddressDto.cs" t="Include" />
+          <e p="BasketItemDto.cs" t="Include" />
+          <e p="CustomerBasketDto.cs" t="Include" />
+          <e p="LoginDto.cs" t="Include" />
           <e p="ProductToReturnDto.cs" t="Include" />
+          <e p="RegisterDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
         </e>
         <e p="Errors" t="Include">
           <e p="ApiException.cs" t="Include" />
@@ -23,7 +31,9 @@
         </e>
         <e p="extensions" t="Include">
           <e p="ApplicationServicesExtensions.cs" t="Include" />
+          <e p="IdentityServiceExtensions.cs" t="Include" />
           <e p="SwaggerServiceExtensions.cs" t="Include" />
+          <e p="UserManagerExtensions.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
           <e p="MappingProfiles.cs" t="Include" />
@@ -106,6 +116,7 @@
       <e p="client\node_modules\array-union" t="IncludeRecursive" />
       <e p="client\node_modules\blocking-proxy" t="IncludeRecursive" />
       <e p="client\node_modules\bootstrap" t="IncludeRecursive" />
+      <e p="client\node_modules\bootswatch" t="IncludeRecursive" />
       <e p="client\node_modules\browserslist" t="IncludeRecursive" />
       <e p="client\node_modules\canonical-path" t="IncludeRecursive" />
       <e p="client\node_modules\chalk" t="IncludeRecursive" />
@@ -147,6 +158,8 @@
       <e p="client\node_modules\make-error" t="IncludeRecursive" />
       <e p="client\node_modules\mimic-fn" t="IncludeRecursive" />
       <e p="client\node_modules\ngx-bootstrap" t="IncludeRecursive" />
+      <e p="client\node_modules\ngx-spinner" t="IncludeRecursive" />
+      <e p="client\node_modules\ngx-toastr" t="IncludeRecursive" />
       <e p="client\node_modules\onetime" t="IncludeRecursive" />
       <e p="client\node_modules\open" t="IncludeRecursive" />
       <e p="client\node_modules\ora" t="IncludeRecursive" />
@@ -227,8 +240,10 @@
       <e p="client\node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
       <e p="client\node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
       <e p="client\node_modules\uri-js" t="IncludeRecursive" />
+      <e p="client\node_modules\uuid" t="IncludeRecursive" />
       <e p="client\node_modules\webdriver-js-extender" t="IncludeRecursive" />
       <e p="client\node_modules\webpack-merge" t="IncludeRecursive" />
+      <e p="client\node_modules\xng-breadcrumb" t="IncludeRecursive" />
       <e p="client\node_modules\yn" t="IncludeRecursive" />
       <e p="client\node_modules\zone.js" t="IncludeRecursive" />
       <e p="Core" t="IncludeRecursive">
@@ -236,13 +251,21 @@
         <e p="Core.csproj" t="IncludeRecursive" />
         <e p="Entities" t="Include">
           <e p="BaseEntity.cs" t="Include" />
+          <e p="BasketItem.cs" t="Include" />
+          <e p="CustomerBasket.cs" t="Include" />
+          <e p="Identity" t="Include">
+            <e p="Address.cs" t="Include" />
+            <e p="AppUser.cs" t="Include" />
+          </e>
           <e p="Product.cs" t="Include" />
           <e p="ProductBrand.cs" t="Include" />
           <e p="ProductType.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
+          <e p="IBasketRepository.cs" t="Include" />
           <e p="IGenericRepository.cs" t="Include" />
           <e p="IProductInterface.cs" t="Include" />
+          <e p="ITokenService.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -279,6 +302,15 @@
           <e p="StoreContext.cs" t="Include" />
           <e p="StoreContextSeed.cs" t="Include" />
         </e>
+        <e p="Identity" t="Include">
+          <e p="AppIdentityDbContext.cs" t="Include" />
+          <e p="AppIdentityDbContextSeed.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="20210117153146_IdentityInitial.cs" t="Include" />
+            <e p="20210117153146_IdentityInitial.Designer.cs" t="Include" />
+            <e p="AppIdentityDbContextModelSnapshot.cs" t="Include" />
+          </e>
+        </e>
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -288,8 +320,12 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="BasketRepository.cs" t="Include" />
           <e p="GenericRepository.cs" t="Include" />
           <e p="ProductRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="TokenService.cs" t="Include" />
         </e>
       </e>
       <e p="MyApp.sln" t="IncludeFlat" />

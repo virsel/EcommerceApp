@@ -7,5 +7,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://localhost;database=EcommerceApp</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="sinet.identity@localhost" uuid="f96d8dc7-92ca-4821-b13a-0dbdc29cc457">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost;database=sinet.identity</jdbc-url>
+    </data-source>
   </component>
 </project>
